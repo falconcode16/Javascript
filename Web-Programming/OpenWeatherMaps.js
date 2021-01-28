@@ -21,10 +21,10 @@ async function oneCallApi (latitude, longitude) {
   return data
 }
 
-currentWeather('Kolkata')
+currentWeather('Hubli')
   .then(data => console.log(data))
 
-weatherForecast('Kolkata')
+weatherForecast('Hubli')
   .then(data => console.log(data))
 
 oneCallApi(55.68, 12.57)

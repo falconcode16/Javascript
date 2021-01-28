@@ -8,7 +8,7 @@ const climbStairs = (n) => {
   let cur = 1
   let temp
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i < n; i--) {
     temp = prev
     prev = cur
     cur += temp
